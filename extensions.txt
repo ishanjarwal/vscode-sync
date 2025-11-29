@@ -1,0 +1,9 @@
+aaa-lt.charmed-nest-icons
+alexgoni.short-react-snippets
+bradlc.vscode-tailwindcss
+esbenp.prettier-vscode
+fey.oscura
+formulahendry.code-runner
+giantcola.advanced-new-file
+mhutchie.git-graph
+shan.code-settings-sync
