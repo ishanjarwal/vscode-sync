@@ -1,12 +1,16 @@
 {
-    "sync.gist": "db784769131ae61185c5efe94ea0dcbb",
-    "workbench.colorTheme": "Oscura Midnight",
-    "workbench.iconTheme": "charmed-warm",
-    "sync.removeExtensions": false,
-    "sync.syncExtensions": false,
-    "chat.disableAIFeatures": true,
-    "editor.formatOnSave": true,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "sync.gist": "db784769131ae61185c5efe94ea0dcbb",
+  "workbench.colorTheme": "Oscura Midnight",
+  "workbench.iconTheme": "charmed-warm",
+  "sync.removeExtensions": false,
+  "sync.syncExtensions": false,
+  "chat.disableAIFeatures": true,
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "code-runner.runInTerminal": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

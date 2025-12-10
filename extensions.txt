@@ -6,6 +6,7 @@ fey.oscura
 formulahendry.code-runner
 giantcola.advanced-new-file
 mhutchie.git-graph
+prisma.prisma
 redhat.java
 shan.code-settings-sync
 usernamehw.errorlens
