@@ -10,3 +10,4 @@ prisma.prisma
 redhat.java
 shan.code-settings-sync
 usernamehw.errorlens
+xabikos.javascriptsnippets
