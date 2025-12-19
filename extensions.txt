@@ -1,6 +1,7 @@
 aaa-lt.charmed-nest-icons
 alexgoni.short-react-snippets
 bradlc.vscode-tailwindcss
+dsznajder.es7-react-js-snippets
 esbenp.prettier-vscode
 fey.oscura
 formulahendry.code-runner
@@ -10,4 +11,5 @@ prisma.prisma
 redhat.java
 shan.code-settings-sync
 usernamehw.errorlens
+venage5603.tokyo-night-dark-enhanced
 xabikos.javascriptsnippets
