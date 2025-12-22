@@ -12,5 +12,6 @@
   "code-runner.runInTerminal": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "editor.wordWrap": "on"
 }

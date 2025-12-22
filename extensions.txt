@@ -4,11 +4,13 @@ bradlc.vscode-tailwindcss
 dsznajder.es7-react-js-snippets
 esbenp.prettier-vscode
 fey.oscura
+formulahendry.auto-close-tag
 formulahendry.code-runner
 giantcola.advanced-new-file
 mhutchie.git-graph
 prisma.prisma
 redhat.java
+redwan-hossain.auto-rename-tag-clone
 shan.code-settings-sync
 usernamehw.errorlens
 venage5603.tokyo-night-dark-enhanced
