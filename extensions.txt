@@ -1,4 +1,5 @@
 aaa-lt.charmed-nest-icons
+aaron-bond.better-comments
 alexgoni.short-react-snippets
 bradlc.vscode-tailwindcss
 dsznajder.es7-react-js-snippets
@@ -11,7 +12,6 @@ mhutchie.git-graph
 prisma.prisma
 redhat.java
 redwan-hossain.auto-rename-tag-clone
-shan.code-settings-sync
 usernamehw.errorlens
 venage5603.tokyo-night-dark-enhanced
 xabikos.javascriptsnippets
