@@ -5,9 +5,11 @@ bradlc.vscode-tailwindcss
 dsznajder.es7-react-js-snippets
 esbenp.prettier-vscode
 fey.oscura
+fhswno.lucide-icons-lookup
 formulahendry.auto-close-tag
 formulahendry.code-runner
 giantcola.advanced-new-file
+llvm-vs-code-extensions.vscode-clangd
 mhutchie.git-graph
 prisma.prisma
 redhat.java
