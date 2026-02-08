@@ -242,4 +242,6 @@
   "workbench.colorTheme": "Tokyo Night Dark Enhanced",
   "editor.fontFamily": "'DejaVu Sans Mono', 'monospace', monospace",
   "terminal.integrated.fontFamily": "monospace",
+  "prettify-ts.maxDepth": 5,
+  "prettify-ts.maxSubProperties": 100,
 }
