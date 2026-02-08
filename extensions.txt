@@ -16,4 +16,12 @@ redhat.java
 redwan-hossain.auto-rename-tag-clone
 usernamehw.errorlens
 venage5603.tokyo-night-dark-enhanced
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
 xabikos.javascriptsnippets
+yoavbls.pretty-ts-errors
+zaaack.markdown-editor

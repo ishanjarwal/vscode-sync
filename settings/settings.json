@@ -1,21 +1,20 @@
 {
   "sync.gist": "db784769131ae61185c5efe94ea0dcbb",
-  "workbench.colorTheme": "Tokyo Night Dark Enhanced",
   "workbench.iconTheme": "charmed-warm",
   "sync.removeExtensions": false,
   "sync.syncExtensions": false,
   "chat.disableAIFeatures": true,
   "editor.formatOnSave": true,
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "code-runner.runInTerminal": true,
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "editor.wordWrap": "on",
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "code-runner.executorMap": {
     "javascript": "node",
@@ -74,7 +73,173 @@
     "erlang": "escript",
     "spwn": "spwn build",
     "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
-    "gleam": "gleam run -m $fileNameWithoutExt"
+    "gleam": "gleam run -m $fileNameWithoutExt",
   },
-  "clangd.path": "/home/bruce/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/21.1.0/clangd_21.1.0/bin/clangd"
+  "clangd.path": "/home/bruce/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/21.1.0/clangd_21.1.0/bin/clangd",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#00FF0010",
+    },
+    {
+      "column": 100,
+      "color": "#BDB76B15",
+    },
+    {
+      "column": 120,
+      "color": "#FA807219",
+    },
+  ],
+  "editor.unicodeHighlight.includeComments": true,
+  "workbench.colorCustomizations": {
+    "[Default Dark Modern]": {
+      "tab.activeBorderTop": "#00FF00",
+      "tab.unfocusedActiveBorderTop": "#00FF0088",
+      "textCodeBlock.background": "#00000055",
+    },
+    "editor.wordHighlightStrongBorder": "#FF6347",
+    "editor.wordHighlightBorder": "#FFD700",
+    "editor.selectionHighlightBorder": "#A9A9A9",
+  },
+  "workbench.editor.revealIfOpen": true,
+  "emmet.variables": {
+    "lang": "en",
+  },
+  "cSpell.diagnosticLevel": "Hint",
+  "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)",
+  "trailing-spaces.includeEmptyLines": false,
+  "terminal.integrated.tabs.hideCondition": "never",
+  "terminal.integrated.enablePersistentSessions": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.debug.settings.hotCodeReplace": "auto",
+  "java.dependency.packagePresentation": "hierarchical",
+  "java.maxConcurrentBuilds": 12,
+  "java.sources.organizeImports.staticStarThreshold": 1,
+  "maven.executable.path": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin/mvn",
+  "java.import.gradle.home": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/8",
+    },
+    {
+      "name": "JavaSE-11",
+      "path": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/11",
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
+    },
+    {
+      "name": "JavaSE-21",
+      "path": "/usr/lib/jvm/java-21-openjdk",
+    },
+    {
+      "name": "JavaSE-25",
+      "path": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
+      "default": true,
+    },
+  ],
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash",
+      "env": {
+        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
+      },
+      "args": [
+        "--rcfile",
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "zsh": {
+      "path": "/usr/bin/zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "JavaSE-1.8 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/8"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-11 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/11"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-17 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-21 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/usr/lib/jvm/java-21-openjdk"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+    "JavaSE-25 LTS": {
+      "overrideName": true,
+      "env": {
+        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest"
+      },
+      "path": "bash",
+      "args": [
+        "--rcfile",
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "maven.terminal.customEnv": [
+    {
+      "environmentVariable": "JAVA_HOME",
+      "value": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
+    },
+  ],
+  "java.import.gradle.java.home": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
+  "redhat.telemetry.enabled": true,
+  "workbench.colorTheme": "Tokyo Night Dark Enhanced",
+  "editor.fontFamily": "'DejaVu Sans Mono', 'monospace', monospace",
+  "terminal.integrated.fontFamily": "monospace",
 }
