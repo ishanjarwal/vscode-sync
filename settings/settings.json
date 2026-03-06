@@ -141,11 +141,11 @@
     {
       "name": "JavaSE-21",
       "path": "/usr/lib/jvm/java-21-openjdk",
+      "default": true,
     },
     {
       "name": "JavaSE-25",
       "path": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
-      "default": true,
     },
   ],
   "terminal.integrated.profiles.linux": {
@@ -153,82 +153,82 @@
       "path": "bash",
       "icon": "terminal-bash",
       "env": {
-        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
+        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
       },
       "args": [
         "--rcfile",
-        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
-      ]
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc",
+      ],
     },
     "zsh": {
-      "path": "/usr/bin/zsh"
+      "path": "/usr/bin/zsh",
     },
     "fish": {
-      "path": "fish"
+      "path": "fish",
     },
     "tmux": {
       "path": "tmux",
-      "icon": "terminal-tmux"
+      "icon": "terminal-tmux",
     },
     "pwsh": {
       "path": "pwsh",
-      "icon": "terminal-powershell"
+      "icon": "terminal-powershell",
     },
     "JavaSE-1.8 LTS": {
       "overrideName": true,
       "env": {
-        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/8"
+        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/8",
       },
       "path": "bash",
       "args": [
         "--rcfile",
-        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
-      ]
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc",
+      ],
     },
     "JavaSE-11 LTS": {
       "overrideName": true,
       "env": {
-        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/11"
+        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/11",
       },
       "path": "bash",
       "args": [
         "--rcfile",
-        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
-      ]
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc",
+      ],
     },
     "JavaSE-17 LTS": {
       "overrideName": true,
       "env": {
-        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/17"
+        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
       },
       "path": "bash",
       "args": [
         "--rcfile",
-        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
-      ]
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc",
+      ],
     },
     "JavaSE-21 LTS": {
       "overrideName": true,
       "env": {
-        "JAVA_HOME": "/usr/lib/jvm/java-21-openjdk"
+        "JAVA_HOME": "/usr/lib/jvm/java-21-openjdk",
       },
       "path": "bash",
       "args": [
         "--rcfile",
-        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
-      ]
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc",
+      ],
     },
     "JavaSE-25 LTS": {
       "overrideName": true,
       "env": {
-        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest"
+        "JAVA_HOME": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/latest",
       },
       "path": "bash",
       "args": [
         "--rcfile",
-        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
-      ]
-    }
+        "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc",
+      ],
+    },
   },
   "terminal.integrated.defaultProfile.linux": "zsh",
   "maven.terminal.customEnv": [
@@ -240,8 +240,15 @@
   "java.import.gradle.java.home": "/home/bruce/.config/Code - OSS/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
   "redhat.telemetry.enabled": true,
   "workbench.colorTheme": "Tokyo Night Dark Enhanced",
-  "editor.fontFamily": "'DejaVu Sans Mono', 'monospace', monospace",
-  "terminal.integrated.fontFamily": "monospace",
+  "editor.fontFamily": "\"Fira Code\", \"monospace\", monospace",
   "prettify-ts.maxDepth": 5,
-  "prettify-ts.maxSubProperties": 100,
+  "prettify-ts.maxSubProperties": 50,
+  "prettify-ts.maxProperties": 50,
+  "terminal.integrated.fontFamily": "AtkynsonMono Nerd Font",
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": true,
+  "customizeUI.activityBar": "regular",
+  "customizeUI.font.monospace": "\"Fira Code\"",
+  "customizeUI.font.regular": "\"Fira Code\"",
+  "customizeUI.titleBar": "frameless",
 }

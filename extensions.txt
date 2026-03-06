@@ -1,5 +1,6 @@
 aaa-lt.charmed-nest-icons
 aaron-bond.better-comments
+adamraichu.font-viewer
 alexgoni.short-react-snippets
 bradlc.vscode-tailwindcss
 dsznajder.es7-react-js-snippets
@@ -9,9 +10,9 @@ fhswno.lucide-icons-lookup
 formulahendry.auto-close-tag
 formulahendry.code-runner
 giantcola.advanced-new-file
+iocave.monkey-patch
 llvm-vs-code-extensions.vscode-clangd
 mhutchie.git-graph
-mylesmurphy.prettify-ts
 prisma.prisma
 redhat.java
 redwan-hossain.auto-rename-tag-clone
