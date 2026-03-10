@@ -1,8 +1,8 @@
-aaa-lt.charmed-nest-icons
 aaron-bond.better-comments
 adamraichu.font-viewer
 alexgoni.short-react-snippets
 bradlc.vscode-tailwindcss
+davidbabel.antigravity-icons-supercharged-blue
 dsznajder.es7-react-js-snippets
 esbenp.prettier-vscode
 fey.oscura

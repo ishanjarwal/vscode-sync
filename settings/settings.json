@@ -1,6 +1,5 @@
 {
   "sync.gist": "db784769131ae61185c5efe94ea0dcbb",
-  "workbench.iconTheme": "charmed-warm",
   "sync.removeExtensions": false,
   "sync.syncExtensions": false,
   "chat.disableAIFeatures": true,
@@ -100,6 +99,15 @@
   ],
   "editor.unicodeHighlight.includeComments": true,
   "workbench.colorCustomizations": {
+    // * I am adding this to override tokyo night dark's styles
+    "[Tokyo Night Dark Enhanced]": {
+      "editor.background": "#000000", // change editor background
+      "activityBar.background": "#000000", // optional
+      "panel.background": "#000000", // optional,
+      "terminal.background":"#000000",
+      "sideBar.background":"#040404",
+      "panel.border":"#2d2d2d",
+    },
     "[Default Dark Modern]": {
       "tab.activeBorderTop": "#00FF00",
       "tab.unfocusedActiveBorderTop": "#00FF0088",
@@ -251,4 +259,10 @@
   "customizeUI.font.monospace": "\"Fira Code\"",
   "customizeUI.font.regular": "\"Fira Code\"",
   "customizeUI.titleBar": "frameless",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "antigravity-icons-supercharged-blue",
+
+  
 }
